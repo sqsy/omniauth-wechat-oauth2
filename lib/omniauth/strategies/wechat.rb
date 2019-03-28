@@ -31,8 +31,7 @@ module OmniAuth
           province:   raw_info['province'],
           city:       raw_info['city'],
           country:    raw_info['country'],
-          headimgurl: raw_info['headimgurl'],
-          unionid:    raw_info['unionid']
+          headimgurl: raw_info['headimgurl']
         }
       end
 
